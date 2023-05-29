@@ -1,4 +1,10 @@
 /*
+  esp-now-control-rcv.ino
+  
+  modified by Dan Peirce B.Sc.  2023
+  Controls RGB LED on ESP32-S2-DevKitC-1 using ESP-Now and terminal 
+  
+  modified from 
   ESP-NOW Demo - Transmit
   esp-now-demo-xmit.ino
   Sends data to Responder
@@ -90,6 +96,6 @@ void loop() {
     else {
       Serial.println("Sending error");
     }
-    //delay(2000);
+    
   }
 }
