@@ -1,6 +1,11 @@
 # esp-now-control-xmit
 
-The purpose of the control xmit sketch is adjusting the color and brightness of the RGB LED built onto a remote EXP-32 board. 
+The purpose of the control xmit sketch is adjusting the colour and brightness of the RGB LED built onto a remote EXP-32 board.  
+
+* The transmitting ESP32 is connected to a computer running a terminal program such as PuTTY or CoolTerm. 
+* A single letter typed into the terminal window acts as a command for the remote ESP32.
+* In this example the MAC address of the remote ESP32 is coded into esp-now-control-xmit.ino
+* The two boards communicate via WiFi modules built into ESP32 the boards.
 
 In exploring the use of ESP NOW on a ESP32-S2-DEVKITC-1 board I found a simple example at 
 
