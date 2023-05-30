@@ -1,5 +1,5 @@
 /*
-  esp-now-control-rcv.ino
+  esp-now-control-xmit.ino
   
   modified by Dan Peirce B.Sc.  2023
   Controls RGB LED on ESP32-S2-DevKitC-1 using ESP-Now and terminal 
